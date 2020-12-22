@@ -32,8 +32,8 @@ class RegisterActiviry : AppCompatActivity() {
         val ir_login = findViewById<TextView>(R.id.ir_login)
 
         ir_login.setOnClickListener {
-           // val intent = Intent(this@RegisterActiviry, LoginActivity::class.java)
-            //startActivity(intent)
+           val intent = Intent(this@RegisterActiviry, LoginActivity::class.java)
+            startActivity(intent)
         }
         btn_register.setOnClickListener {
             createUser()
